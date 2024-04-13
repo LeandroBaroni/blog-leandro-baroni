@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.scss'
 })
-export class SmallCardComponent {
-
-}
+export class SmallCardComponent {}
