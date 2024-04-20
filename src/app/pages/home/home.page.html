@@ -7,8 +7,8 @@
     <app-big-card />
   </div>
   <div class='articles_others'>
-    <app-small-card/>
-    <app-small-card/>
-    <app-small-card/>
+    @for(item of news; track $index){
+      <app-small-card [item]='item'/>
+    }
   </div>
 </div>
